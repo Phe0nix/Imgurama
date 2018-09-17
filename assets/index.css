@@ -1,0 +1,20 @@
+.main{
+    padding: 0 20px;
+}
+.main-content{
+    display: flex;
+    display: -webkit-flex;
+}
+.demo{
+    width: calc(100% / 4);
+}
+.demo:not(:last-child){
+    margin-right: 25px;
+}
+.item{
+    margin-bottom: 20px;
+}
+.item img,
+.item video{
+    width: 100%;
+}
